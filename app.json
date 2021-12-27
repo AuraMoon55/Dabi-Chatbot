@@ -45,6 +45,6 @@
       "description": "Bot sends this alive pic on starting",
       "required": true, 
       "value": ""
-    }, 
+    }
   }
 }  
