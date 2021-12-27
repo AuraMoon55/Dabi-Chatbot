@@ -21,13 +21,13 @@ ENV = bool(os.environ.get("ENV", False))
 
 TOKEN = os.environ.get("TOKEN", "")
 
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get('API_ID', None))
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", None)
 
-SUPPORT_CHAT = os.environ.get("SUPPORT", "")
+SUPPORT_CHAT = os.environ.get("SUPPORT", "Villainevil_support")
 
-ALIVE_PIC = os.environ.get("ALIVE_PIC", "")
+ALIVE_PIC = os.environ.get("ALIVE_PIC", None)
 
 updater = tg.Updater(
     TOKEN,
