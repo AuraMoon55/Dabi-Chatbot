@@ -91,9 +91,12 @@ def chatbot(update: Update, context: CallbackContext):
         message.reply_text(chet, timeout=60)
 
 def main():
-    dispatcher.bot.send_photo(f"@{SUPPORT_CHAT}, f"{ALIVE_PIC}", caption="I'm alive to chat! master")
-    updater.start_polling(timeout=15, read_latency=4)
-    updater.idle()
+
+    if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
+        try:
+            dispatcher.bot.send_photo(f"@{SUPPORT_CHAT}, f"{ALIVE_PIC}", caption="I'm alive to chat! master")
+            updater.start_polling(timeout=15, read_latency=4)
+            updater.idle()
 
 if __name__ = "__main__":
    main()
