@@ -4,7 +4,7 @@ from telegram.ext import (
     ConversationHandler,
     CallbackQueryHandler,
 )
-import os, sys, importlib
+import os, sys
 import json
 import html
 from telegram.ext.dispatcher import run_async
