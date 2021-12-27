@@ -1,0 +1,6 @@
+pyrogram
+requests
+html
+python-telegram-bot==13.9
+json
+asyncio
