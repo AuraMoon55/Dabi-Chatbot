@@ -38,12 +38,12 @@
     },
     "SUPPORT_CHAT": {
       "description": "Your support chat link",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "ALIVE_PIC": {
       "description": "Bot sends this alive pic on starting",
-      "required": True, 
+      "required": true, 
       "value": ""
     }, 
   }
