@@ -23,19 +23,18 @@ from telegram import ParseMode
 
 START_MSG = """
 Hey there {}, I am {} 
-I am a chatbot you can either add me to group for chatting
-Or you can chat here. For more information click on About button.
-For updates join my updates channel and for bot support join my support chat
+I am a chatbot you can either add me to group for chatting. 
+or you can chat here.\n For more information click on About button.\n
+For updates join my updates channel and for bot support join my support chat \n
 The links are given below."""
 
 ABT_MSG = """
-Hey there {}, this bot was made by 
-• [PSYCHOPOMP](https://t.me/Horni_Senpaii)
-• [Hunters Association](https://github.com/The-hunter-association)
-This bot uses kuki api to process your text and give a perfect reply.
-• [Kuki Api](https://www.kuki.ai/research)
-
-Repository Link
+Hey there {}, this bot was made by \n
+• [PSYCHOPOMP](https://t.me/Horni_Senpaii) \n \n
+This bot uses kuki api to process your text and give a perfect reply. \n
+• [Kuki Api](https://www.kuki.ai/research) \n
+• [Pyrogram](https://docs.pyrogram.org) \n  \n
+Repository Link \n
 • Not added yet 
 """
 
