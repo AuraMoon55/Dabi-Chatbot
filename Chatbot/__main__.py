@@ -94,7 +94,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.send_photo(f"@{SUPPORT_CHAT}, f"{ALIVE_PIC}", caption="I'm alive to chat! master")
+            dispatcher.bot.send_photo(f"@{SUPPORT_CHAT}", f"{ALIVE_PIC}",  caption="Im alive master")
             updater.start_polling(timeout=15, read_latency=4)
             updater.idle()
 
