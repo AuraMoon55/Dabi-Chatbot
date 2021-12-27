@@ -4,8 +4,8 @@ Created & Maintained by @AuraMoon55
 Available on Telegram as <a href="https://t.me/Horni_Senpaii">Horni Senpai</a>
 
 
-For Support Contact at <a href="https://t.me/villainevil_support">Villain Support</a> \n
-For Updates Join <a href="https://t.me/Dabi_Updates">Villain Updates</a> \n
+<h1>For Support Contact at <a href="https://t.me/villainevil_support">Villain Support</a></h1>
+<h2>For Updates Join <a href="https://t.me/Dabi_Updates">Villain Updates</a></h2>
 
 
 ## Deploy on Heroku
