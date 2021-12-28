@@ -19,7 +19,6 @@ from telegram.ext import CommandHandler, run_async, CallbackContext, MessageHand
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 from time import sleep
 from telegram import ParseMode
-from Chatbot.plugin import chumt
 
 START_MSG = """
 Hey there {}, I am {} 
