@@ -12,7 +12,7 @@ from telegram import InlineKeyboardMarkup, InlineKeyboardButton, ForceReply
 from pyrogram import Client
 from Chatbot import dispatcher, updater, pbot, BOT_USERNAME, ALIVE_PIC, SUPPORT_CHAT
 import asyncio
-from pyrogram import fitlers
+from pyrogram import filters
 from telegram import Message, Chat, Update, Bot, MessageEntity
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import CommandHandler, run_async, CallbackContext, MessageHandler
