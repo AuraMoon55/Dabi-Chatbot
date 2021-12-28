@@ -92,3 +92,4 @@ def chatbot(update: Update, context: CallbackContext):
 
 if __name__ == "__main__":
       chumt()
+      idle()
