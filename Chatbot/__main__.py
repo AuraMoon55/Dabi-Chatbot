@@ -15,7 +15,7 @@ import asyncio
 from pyrogram import fitlers
 from telegram import Message, Chat, Update, Bot, MessageEntity
 from telegram.error import BadRequest, RetryAfter, Unauthorized
-from telegram.ext import CommandHandler, run_async, CallbackContext, MessageHandler, Filters
+from telegram.ext import CommandHandler, run_async, CallbackContext, MessageHandler
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 from time import sleep
 from telegram import ParseMode
