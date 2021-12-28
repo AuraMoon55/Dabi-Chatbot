@@ -91,5 +91,7 @@ def chatbot(update: Update, context: CallbackContext):
         message.reply_text(chet, timeout=60)
 
 if __name__ == "__main__":
-      chumt()
+      dispatcher.bot.send_photo(f"@{SUPPORT_CHAT}", f"{ALIVE_PIC}",  caption="Im alive to chat master")
+      updater.start_polling(timeout=15, read_latency=4)
+      updater.idle()
       idle()
