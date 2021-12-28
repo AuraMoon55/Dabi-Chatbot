@@ -19,7 +19,7 @@ from telegram.ext import CommandHandler, run_async, CallbackContext, MessageHand
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 from time import sleep
 from telegram import ParseMode
-
+from Chatbot.plugin import chumt
 
 START_MSG = """
 Hey there {}, I am {} 
@@ -90,16 +90,5 @@ def chatbot(update: Update, context: CallbackContext):
         sleep(0.3)
         message.reply_text(chet, timeout=60)
 
-def chumt():
-
-    if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
-        try:
-            dispatcher.bot.send_photo(f"@{SUPPORT_CHAT}", f"{ALIVE_PIC}",  caption="Im alive to chat master")
-            updater.start_polling(timeout=15, read_latency=4)
-            updater.idle()
-
-
-
-
-  if __name__ == "__main__":
+if __name__ == "__main__":
       chumt()
