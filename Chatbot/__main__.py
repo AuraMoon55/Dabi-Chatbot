@@ -90,7 +90,7 @@ def chatbot(update: Update, context: CallbackContext):
         sleep(0.3)
         message.reply_text(chet, timeout=60)
 
-def main():
+def chumt():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
@@ -101,5 +101,5 @@ def main():
 
 
 
-    if __name__ == "__main__":
-        main()
+  if __name__ == "__main__":
+      chumt()
