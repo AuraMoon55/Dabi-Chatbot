@@ -3,7 +3,6 @@ import logging
 import sys
 import time
 
-import telegram.ext as tg
 from pyrogram import Client, errors
 
 StartTime = time.time()
@@ -29,12 +28,6 @@ SUPPORT_CHAT = os.environ.get("SUPPORT", "Villainevil_support")
 
 ALIVE_PIC = os.environ.get("ALIVE_PIC", None)
 
-updater = tg.Updater(
-    TOKEN,
-    workers=min(32, os.cpu_count() + 4),
-    request_kwargs={"read_timeout": 10, "connect_timeout": 10},
-)
-dispatcher = updater.dispatcher
 
 pbot = Client("Chatty", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 
